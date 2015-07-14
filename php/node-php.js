@@ -16,7 +16,7 @@ var gid = 0;
 function client(options) {
 	var _fastcgi = this;
 	var connection = new net.Stream();
-	var htparser = new HTTPParser("response");
+	var htparser = new HTTPParser("HTTPParser.RESPONSE");
 	var queue = [];
 	var reqid = 0;
 	var requests = {};
